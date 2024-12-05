@@ -1,3 +1,21 @@
+Package: com.fb.fbnoads
+Version: 0.0.2
+Architecture: iphoneos-arm
+Maintainer: fn
+Installed-Size: 152
+Depends: mobilesubstrate
+Filename: ./debs/org.mr.facebooknoads_0.0.2_iphoneos-arm.deb
+Size: 7548
+MD5sum: 65d86dd7e7c4bf21904a2725c0b1df80
+SHA1: c3bbbf25d4e1edd274b77dbc995a4769be271ac9
+SHA256: 87f9884e1511a34c2694d07fe324a117363d7f36268815d61ff88efad07cfa75
+Section: Tweaks
+Description: Block all Facebook no ADS! Super simple to use, light and FAST. This Tweak removes FB NewsFeed ads, Story ads, Video ads and All Sponsored Posts.
+Author: pxcex
+Depiction: https://mrepo.org/depiction/5240
+Name: Facebook NO ADS
+Sileodepiction: https://mrepo.org/sileo/5240
+
 Package: com.fn.icleanerpro
 Version: 7.10.0
 Architecture: iphoneos-arm64

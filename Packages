@@ -5,32 +5,14 @@ Maintainer: fn
 Installed-Size: 136
 Depends: mobilesubstrate, com.fn.icleanerpro
 Filename: ./debs/com.fn.icleanerpro_7.10.0_iphoneos-arm64.deb
-Size: 1091080
-MD5sum: 180c1b3ab037990d5213dfc7fe0bc1c2
-SHA1: 96ebe3870e9624990340a545f2fee621f37bd47e
-SHA256: dcd0b5eabd0f345867c64811d766b11c85a5f902559d6d36b858b43e9abe3ba9
+Size: 1094488
+MD5sum: eed485db4f764f7e24ebcca6da449948
+SHA1: b08c13e484d29fbe44c4af169df30d2c04892969
+SHA256: b5747f887445c28260c92426bdc5ba9d86cc60597fec237bc143ee18b1156479
 Section: Tweaks
 Description: iCleaner Pro
 Author: Ivano Bilenchi
 Depiction: https://imaskpro.github.io
 Name: iCleaner Pro
-Sileodepiction: https://imaskpro.github.io/sileo_depiction/2563
-
-Package: com.fn.icleanerprocrack
-Version: 1.1
-Architecture: iphoneos-arm64
-Maintainer: fn
-Installed-Size: 136
-Depends: mobilesubstrate, com.fn.icleanerpro
-Filename: ./debs/com.fn.icleanerprocrack_1.1_iphoneos-arm64.deb
-Size: 4848
-MD5sum: f7648ff3a797928ba345cef815ba25d8
-SHA1: a32fdd179aaebca4fc2aa0e0fdd94fea8248b7c5
-SHA256: 1c57fbb49c0670ae6a93b06c127b56a044f16e81e807921e694df476081d04b9
-Section: Tweaks
-Description: iCleaner Pro Crack
-Author: Anna
-Depiction: https://imaskpro.github.io
-Name: iCleaner Pro Crack
 Sileodepiction: https://imaskpro.github.io/sileo_depiction/2563
 

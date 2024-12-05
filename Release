@@ -1,8 +1,37 @@
+Architectures: iphoneos-arm iphoneos-arm64
+Codename: CyPwn_Repo
+Components: main
+Date: Tue, 03 Dec 2024 23:14:16 +0000
+Description: CyPwn Repository
+Label: â€ŠCyPwn Repo ðŸ”¥
 Origin: â€ŠCyPwn Repo ðŸ”¥
-Label: â€ŠiMaskPro
 Suite: stable
 Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64
-Components: main
-Description: iMaskPro
+MD5Sum:
+ 38384cd5b2812587d56ebd8a1cbc49f2          1345540 Packages
+ faf237a5cfdbe82cece5b5133c457157           332067 Packages.bz2
+ 2a91854bde5c77f9eb40613cf49de075           415242 Packages.gz
+ 7ebc74b83804bb2281740b1462db387f           333776 Packages.xz
+ 981639054923e761199888ccb5dde874           338935 Packages.zst
+ 0fa2449a02a15a604f6018d3f3047d63              229 Release
+SHA1:
+ 7b9da7bc2d4d5917321ed7ba035ef3e953190d40          1345540 Packages
+ 2d3d526ebffd8b2db9d06ef7708700a2d60f1644           332067 Packages.bz2
+ 01baf1614d5c49b518616d0a612bcb1b3cc6fd9c           415242 Packages.gz
+ 772e47e6d2e0384489038c00e751af494bd83d72           333776 Packages.xz
+ 623f26e1f26ed56c9fb08f5e99bc094975f229a1           338935 Packages.zst
+ b3dd2a6d8049f9a18a0f5bcfbacc33bf30d84058              229 Release
+SHA256:
+ 1f892c2deb683f1d86f94b25de4863c2b6863e0fadb1878c0db7cf60f627ded7          1345540 Packages
+ 84f3555fbb3be8e3ff41a1629af18daa9fd66c192aa92d81e9f54bc835f06add           332067 Packages.bz2
+ cc022d8ccda17d9fe612bc2093cf3a7c9ad201fd6df8c007ea668297b589638c           415242 Packages.gz
+ 90a4440f1445e59da8da5169d325d426da4582a0522590fc1c5f6b20b70ce7b1           333776 Packages.xz
+ 5acdace3fafe3505ac92510f3f4391058a946900265d36c51ca9ac7523865c6c           338935 Packages.zst
+ f549baf44258f2c8af4d14933123495e70aa557b10c635f6dd841f03e9c21851              229 Release
+SHA512:
+ ca1b8a949dc4411a6c1952eebba36625cab160931dcbbfd5535a65ca0e39a86ff02e1baa94721c86b4afb5e34ea60297a8f3058a1375113dec207f9cd7faf71e          1345540 Packages
+ 1a1fc753affabe96c594acbe1bd60263113e446997a9f91432238710f750bf33e9240f73da54deae90c3f5cdd0e89eb668c01cd6bfea83a046e3a1018da15578           332067 Packages.bz2
+ 7226da481173b557e05b3ef83f8c490682f6e31ff68ef3432e931f4d4de3625dbfafa0d6f42174804208e8fc988d01acafcac0638157e4577d8d6c3a2215f90c           415242 Packages.gz
+ 68de3f0e5a37a1b44d8a796f4e7a573dc956bdff0163b16c149410ed1a639b7b0977ac96b1c158bd279c3f662bb3b562f0fe149697b195cc6e24abfa3cc1a117           333776 Packages.xz
+ 2366a97b30f3b65f7d0177466e125790eda8824e44f1508da9f39eb93deb884222356910f46741a452910a3b6978f22f09e3d8a87bfbf9c26db3cf9345a77712           338935 Packages.zst
+ 1486a4ce762f36b0e245a03f46ccbda969bf9086a858ba4f352932db44ec16754fe66c2b7c6ce747ab39ee6ab34f8c8f905d7f4bdca83a10b041f2bc317cc864              229 Release

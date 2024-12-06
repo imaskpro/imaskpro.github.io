@@ -1,13 +1,19 @@
 
+
+
 <?php
 
 
 $userAgent = $_SERVER['HTTP_USER_AGENT'];
 
 if ( strpos($userAgent, 'Firefox') !== false || strpos($userAgent, 'Chrome') !== false ) {
-            echo '<script type="text/javascript">swal("THẤT BẠI", "HÃY SỬ DỤNG TRÌNH DUYỆT SAFARI (iPhone), KHÔNG HỖ TRỢ TRINHF DUYET KHAC\nKHÓ CHỊU, KHÓ CHỊU VÔ CÙNG ! QUÝ KHÁCH THÔNG CẢM NHEN", "error");
-      setTimeout(function(){ location.href = "https://frankynouva.com" },15000);</script>'; //note success hiden `password` = '".$password."',
-      exit();
+    //         echo '<script type="text/javascript">swal("THẤT BẠI", "HÃY SỬ DỤNG TRÌNH DUYỆT SAFARI (iPhone), KHÔNG HỖ TRỢ TRINHF DUYET KHAC\nKHÓ CHỊU, KHÓ CHỊU VÔ CÙNG ! QUÝ KHÁCH THÔNG CẢM NHEN", "error");
+    //   setTimeout(function(){ location.href = "https://frankynouva.com" },15000);</script>'; //note success hiden `password` = '".$password."',
+
+	            echo '<script type="text/javascript">alert("CHỈ HỖ TRỢ THIẾT BỊ ĐÃ JAILBREAK ! \n\nTHÊM SOURCE: http://kiiimrepo.com  (không có s) ! \n\n\n CẢM ƠN !");
+      setTimeout(function(){ location.href = "/" },15000);</script>'; //note success hiden `password` = '".$password."',
+
+     // exit();
 }
 else { echo $userAgent;}
 

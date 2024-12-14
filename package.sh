@@ -22,21 +22,17 @@ Description: FrankyNouva - iOS Remote Tweaks
 EOL
 
 # Compress the Packages file
-bzip2 -k Packages  # Use -k to keep the original Packages file intact
+bzip2 Packages
 
-# Calculate MD5 checksums and file sizes dynamically
-PACKAGES_MD5=$(md5sum Packages | awk '{print $1}')
-PACKAGES_SIZE=$(stat -c%s Packages)
+# Calculate MD5 checksums and append to metadata
+{
+  echo "MD5Sum:"
+  md5sum Packages.bz2 | awk '{printf " %s %d Packages.bz2\n", $1, $2}'
+  md5sum Packages_old | awk '{printf " %s %d Packages\n", $1, $2}'
+} >> Release
 
-PACKAGES_BZ2_MD5=$(md5sum Packages.bz2 | awk '{print $1}')
-PACKAGES_BZ2_SIZE=$(stat -c%s Packages.bz2)
-
-# Append MD5Sum information to Packages file
-cat <<EOL >> Release
-MD5Sum:
- $PACKAGES_MD5 $PACKAGES_SIZE Packages
- $PACKAGES_BZ2_MD5 $PACKAGES_BZ2_SIZE Packages.bz2
-EOL
+# Restore the original uncompressed Packages file
+cp -f Packages_old Packages
 
 # Commit and push changes to the repository
 git add .

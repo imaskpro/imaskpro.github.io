@@ -1,8 +1,12 @@
-Origin: n3d1117's Cydia repo
-Label: n3d1117's Cydia repo
+Origin: FrankyNouva
+Label: FrankyNouva
 Suite: stable
 Version: 1.0
 Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Architectures: iphoneos-arm
 Components: main
-Description: n3d1117's Cydia repo
+Description: FrankyNouva - iOS Remote Tweaks
+MD5Sum:
+ 8aa24de59e26b837b27ac8b475a7184e 2436 Packages
+ d3ac8883259ffb6753ef88c1e620fb30 1301 Packages.bz2
+

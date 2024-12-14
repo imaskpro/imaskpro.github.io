@@ -1,11 +1,11 @@
-Origin: FrankyNouva
-Label: FrankyNouva
+Origin: A Kiiim Repo
+Label: A Kiiim Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: FrankyNouva - iOS Remote Tweaks
+Description: A Kiiim Repo
 MD5Sum:
- 06b4a04d88b299076b2788c9c6f6db15 2661 Packages
- 25e3b575b25850065635715b960f62ed 1316 Packages.bz2
+ 1920dd00ceb268de669d75fac01cfd9b 2683 Packages
+ 922ab4062394516b6d5949872646234b 1307 Packages.bz2

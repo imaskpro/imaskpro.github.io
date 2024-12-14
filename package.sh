@@ -22,14 +22,14 @@ PACKAGES_BZ2_SIZE=$(stat --format="%s" Packages.bz2)
 
 # Create or overwrite the Release file
 cat <<EOL > Release
-Origin: FrankyNouva
-Label: FrankyNouva
+Origin: A Kiiim Repo
+Label: A Kiiim Repo
 Suite: stable
 Version: 1.0
 Codename: ios
 Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
-Description: FrankyNouva - iOS Remote Tweaks
+Description: A Kiiim Repo
 MD5Sum:
  $PACKAGES_MD5 $PACKAGES_SIZE Packages
  $PACKAGES_BZ2_MD5 $PACKAGES_BZ2_SIZE Packages.bz2

@@ -64,13 +64,13 @@ Installed-Size: 144
 Depends: mobilesubstrate
 Filename: ./debs/com.fn.networkspeedrl_1.0_iphoneos-arm64.deb
 Size: 13836
-MD5sum: 986f9afac043f8a2994a8dd4229fc2e2
-SHA1: c07d5f1d46187a8a12030238e62d8e8dc7e75182
-SHA256: ed31a08e2cacaf4aca09f97c4566ab9805535faf72b03dfbd68c6fa52963308a
+MD5sum: d16c6066b30c937f2d6bdd91149d47f4
+SHA1: dbd4f3c5e9aea4a5f0cb35431346ad988095b3ab
+SHA256: 12cd3248b5d7b78507ac774527929cf26536f7ba5e194ddabc7f7e1c7c0b19fe
 Section: Tweaks
 Description: A simple tweak that show network speed. Support notched iPhone and also rootless jailbreak.
 Author: 34306
 Depiction: http://kiiimrepo.com
 Name: NetworkSpeed rootless
-Sileodepiction: http://kiiimrepo.com/depictions/depic.html
+Sileodepiction: http://kiiimrepo.com/depictions/depic.json
 

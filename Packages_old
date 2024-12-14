@@ -38,3 +38,21 @@ Depiction: http://kiiimrepo.com
 Name: iCleaner Pro
 Sileodepiction: http://kiiimrepo.com
 
+Package: org.mr.localiapstore
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/org.mr.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 42260
+MD5sum: 433e069d60d9f0337d194f2738359676
+SHA1: 915854b743cdaf9f13f8dc25b39c0e5a7d109835
+SHA256: be297eb7feb5c1fa6066cbf150184e9041ff8fb044ae084bb4e6b43374ab8059
+Section: Tweaks
+Description: Hacking in-game purchases
+Author: anondev
+Depiction: https://kiiimrepo.com
+Icon: https://mainrepo.org/CydiaIcon.png
+Name: LocalIAPStore
+Sileodepiction: https://kiiimrepo.com
+

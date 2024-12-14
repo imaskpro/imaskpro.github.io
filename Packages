@@ -19,6 +19,24 @@ Name: Gravitation (Roothide)
 Sileodepiction: https://tqm-mos.com/info/gravitation.json
 Website: https://kiiimrepo.com
 
+Package: com.fn.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: fn
+Installed-Size: 136
+Depends: mobilesubstrate, com.fn.icleanerpro
+Filename: ./debs/com.fn.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1094488
+MD5sum: eed485db4f764f7e24ebcca6da449948
+SHA1: b08c13e484d29fbe44c4af169df30d2c04892969
+SHA256: b5747f887445c28260c92426bdc5ba9d86cc60597fec237bc143ee18b1156479
+Section: Tweaks
+Description: iCleaner Pro
+Author: Ivano Bilenchi
+Depiction: https://imaskpro.github.io
+Name: iCleaner Pro
+Sileodepiction: https://imaskpro.github.io/sileo_depiction/2563
+
 Package: it.ned.carrot5
 Version: 0.0.1
 Architecture: iphoneos-arm

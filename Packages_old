@@ -1,0 +1,22 @@
+Package: com.fn.choicy
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1322
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.fn.choicy_1.5_iphoneos-arm.deb
+Size: 255912
+MD5sum: 50667ca2888341f7ff9108eb54052748
+SHA1: 168fe9a1771a425c461f20b3364041eb16ec1349
+SHA256: 1b9db83642af42f7f81d816b622517e1ef376ce11c85d046e3d47db24eab4fef
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: Advanced Tweak Configuration!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Dev: opa334
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
+Name: Choicy
+Sponsor: thebigboss.org <http://thebigboss.org>
+

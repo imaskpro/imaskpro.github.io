@@ -56,3 +56,21 @@ Icon: https://mainrepo.org/CydiaIcon.png
 Name: LocalIAPStore
 Sileodepiction: http://kiiimrepo.com
 
+Package: com.fn.networkspeedrl
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Little 34306
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: ./debs/com.fn.networkspeedrl_1.0_iphoneos-arm64.deb
+Size: 13832
+MD5sum: d5964d210b8da6e9a9f2fa2c5791f103
+SHA1: 24d470c1d1a23e4af141299f6f4e99c3db742da1
+SHA256: 769f39b936a5c82abbb11aa700d01fd0f984ff0ca3cb938d49a50ae092b84743
+Section: Tweaks
+Description: A simple tweak that show network speed. Support notched iPhone and also rootless jailbreak.
+Author: 34306
+Depiction: http://kiiimrepo.com
+Name: NetworkSpeed rootless
+Sileodepiction: http://kiiimrepo.com
+

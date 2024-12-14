@@ -26,16 +26,16 @@ Maintainer: fn
 Installed-Size: 136
 Depends: mobilesubstrate, com.fn.icleanerpro
 Filename: ./debs/com.fn.icleanerpro_7.10.0_iphoneos-arm64.deb
-Size: 1094488
-MD5sum: eed485db4f764f7e24ebcca6da449948
-SHA1: b08c13e484d29fbe44c4af169df30d2c04892969
-SHA256: b5747f887445c28260c92426bdc5ba9d86cc60597fec237bc143ee18b1156479
+Size: 1094260
+MD5sum: 36954928d93911afc976ae6e70507cda
+SHA1: cc93815a3ae99e719036f65ce84d4b31edd325c3
+SHA256: 0305bbe94e0d2059b7d9fc19ba36d98f7a67d3a966a5f7ea80478510d5e96b4b
 Section: Tweaks
 Description: iCleaner Pro
 Author: Ivano Bilenchi
-Depiction: https://imaskpro.github.io
+Depiction: https://kiiimrepo.com
 Name: iCleaner Pro
-Sileodepiction: https://imaskpro.github.io/sileo_depiction/2563
+Sileodepiction: https://kiiimrepo.com
 
 Package: it.ned.carrot5
 Version: 0.0.1

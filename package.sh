@@ -32,7 +32,7 @@ PACKAGES_BZ2_MD5=$(md5sum Packages.bz2 | awk '{print $1}')
 PACKAGES_BZ2_SIZE=$(stat -c%s Packages.bz2)
 
 # Append MD5Sum information to Packages file
-cat <<EOL >> Packages
+cat <<EOL >> Release
 MD5Sum:
  $PACKAGES_MD5 $PACKAGES_SIZE Packages
  $PACKAGES_BZ2_MD5 $PACKAGES_BZ2_SIZE Packages.bz2

@@ -5,16 +5,16 @@ Maintainer: fn
 Installed-Size: 884
 Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
 Filename: ./debs/com.fn.choicy_1.4.10-3_iphoneos-arm64.deb
-Size: 104836
-MD5sum: 31a6cb49058266c8e9362f1e819dac97
-SHA1: ddbeef9df21cb51fddfa5dd5c1f226d3432b2130
-SHA256: 2f1f98588526a0646e240076d78b5c5790a536ce25a83f560582e57a493abc5a
+Size: 104768
+MD5sum: c69522450caae372f3c64740f2c11f6d
+SHA1: 45a617883687d60f3ff8343495b1dccdeac3f4d1
+SHA256: 0e111a05d147f6d4ecd5fea8904d0155fb28d5bbe7a81a3ccaf7c5b4a367fc81
 Section: Tweaks
 Description: Advanced Tweak Configuration!
 Author: opa334 <opa334@protonmail.com>
 Depiction: http://kiiimrepo.com
 Name: Choicy (Rootless)
-Sileodepiction: https://kiiimrepo.com/depictions/depic.json
+Sileodepiction: http://kiiimrepo.com/depictions/depic.json
 
 Package: com.fn.choicy
 Version: 1.5

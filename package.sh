@@ -35,7 +35,7 @@ MD5Sum:
  $PACKAGES_BZ2_MD5 $PACKAGES_BZ2_SIZE Packages.bz2
 EOL
 
-# Commit and push changes to the repository
-git add .
-git commit -m "Updated Packages metadata"
-git push origin main
+# # Commit and push changes to the repository
+# git add .
+# git commit -m "Updated Packages metadata"
+# git push origin main

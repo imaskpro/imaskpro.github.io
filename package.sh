@@ -9,17 +9,6 @@ dpkg-scanpackages -m ./debs > Packages
 # Backup Packages file
 cp -f Packages Packages_old
 
-# Add metadata to Packages file
-cat <<EOL >> Packages
-Origin: FrankyNouva
-Label: FrankyNouva
-Suite: stable
-Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-Components: main
-Description: FrankyNouva - iOS Remote Tweaks
-EOL
 
 # Compress the Packages file
 bzip2 -k Packages  # Use -k to keep the original Packages file intact
@@ -31,8 +20,16 @@ PACKAGES_SIZE=$(stat --format="%s" Packages)
 PACKAGES_BZ2_MD5=$(md5sum Packages.bz2 | awk '{print $1}')
 PACKAGES_BZ2_SIZE=$(stat --format="%s" Packages.bz2)
 
-# Create or append to the Release file
+# Create or overwrite the Release file
 cat <<EOL > Release
+Origin: FrankyNouva
+Label: FrankyNouva
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: FrankyNouva - iOS Remote Tweaks
 MD5Sum:
  $PACKAGES_MD5 $PACKAGES_SIZE Packages
  $PACKAGES_BZ2_MD5 $PACKAGES_BZ2_SIZE Packages.bz2

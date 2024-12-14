@@ -7,5 +7,5 @@ Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
 Components: main
 Description: FrankyNouva - iOS Remote Tweaks
 MD5Sum:
- 0049dba29e3be6011dd3c133783a6de1 1439 Packages
- e0a677f0227f516e2fc9db582c4372e0 849 Packages.bz2
+ ca9bfeafc9bf669b0a91ca4f9da3f1c4 1437 Packages
+ f5582cef545ecc7457dcaaa90d35c3fc 849 Packages.bz2

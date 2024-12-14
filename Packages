@@ -27,14 +27,14 @@ Maintainer: fn
 Installed-Size: 136
 Depends: mobilesubstrate, com.fn.icleanerpro
 Filename: ./debs/com.fn.icleanerpro_7.10.0_iphoneos-arm64.deb
-Size: 1094260
-MD5sum: 36954928d93911afc976ae6e70507cda
-SHA1: cc93815a3ae99e719036f65ce84d4b31edd325c3
-SHA256: 0305bbe94e0d2059b7d9fc19ba36d98f7a67d3a966a5f7ea80478510d5e96b4b
+Size: 1094192
+MD5sum: 4e260a43712c078abc9ef36cd5e7f441
+SHA1: 0623a0731a2d8ae1a3400f19cf480a0c723522c9
+SHA256: 6a89e973ac55bf31b61cde546577644373d65f3c0b9e1866fdc70ea8661b8e03
 Section: Tweaks
 Description: iCleaner Pro
 Author: Ivano Bilenchi
-Depiction: https://kiiimrepo.com
+Depiction: http://kiiimrepo.com
 Name: iCleaner Pro
-Sileodepiction: https://kiiimrepo.com
+Sileodepiction: http://kiiimrepo.com
 

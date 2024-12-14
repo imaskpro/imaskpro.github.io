@@ -1,25 +1,3 @@
-Origin: FrankyNouva 
-Label: FrankyNouva
-Suite: stable
-Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-Components: main
-Description: FrankyNouva - iOS Remote Tweaks
 MD5Sum:
  6b3f9bc9455676ea36a04ea49d56101b 1640 Packages
  5c1345ee33ac40b57845fa8234c2a4f3 939 Packages.bz2
-MD5Sum:
- 5c1345ee33ac40b57845fa8234c2a4f3 0 Packages.bz2
- 0049dba29e3be6011dd3c133783a6de1 0 Packages
-Origin: FrankyNouva
-Label: FrankyNouva
-Suite: stable
-Version: 1.0
-Codename: ios
-Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
-Components: main
-Description: FrankyNouva - iOS Remote Tweaks
-MD5Sum:
- 0049dba29e3be6011dd3c133783a6de1 1439 Packages
- e0a677f0227f516e2fc9db582c4372e0 849 Packages.bz2

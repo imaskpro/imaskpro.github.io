@@ -10,7 +10,7 @@ dpkg-scanpackages -m ./debs > Packages
 cp -f Packages Packages_old
 
 # Add metadata to Packages file
-cat <<EOL >> Release
+cat <<EOL >> Packages
 Origin: FrankyNouva
 Label: FrankyNouva
 Suite: stable
@@ -26,13 +26,13 @@ bzip2 -k Packages  # Use -k to keep the original Packages file intact
 
 # Calculate MD5 checksums and file sizes dynamically
 PACKAGES_MD5=$(md5sum Packages | awk '{print $1}')
-PACKAGES_SIZE=$(stat -c%s Packages)
+PACKAGES_SIZE=$(stat --format="%s" Packages)
 
 PACKAGES_BZ2_MD5=$(md5sum Packages.bz2 | awk '{print $1}')
-PACKAGES_BZ2_SIZE=$(stat -c%s Packages.bz2)
+PACKAGES_BZ2_SIZE=$(stat --format="%s" Packages.bz2)
 
-# Append MD5Sum information to Packages file
-cat <<EOL >> Release
+# Create or append to the Release file
+cat <<EOL > Release
 MD5Sum:
  $PACKAGES_MD5 $PACKAGES_SIZE Packages
  $PACKAGES_BZ2_MD5 $PACKAGES_BZ2_SIZE Packages.bz2

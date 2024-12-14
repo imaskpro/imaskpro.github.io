@@ -38,3 +38,14 @@ Depiction: https://kiiimrepo.com
 Name: iCleaner Pro
 Sileodepiction: https://kiiimrepo.com
 
+Origin: FrankyNouva
+Label: FrankyNouva
+Suite: stable
+Version: 1.0
+Codename: ios
+Architectures: iphoneos-arm iphoneos-arm64 iphoneos-arm64e
+Components: main
+Description: FrankyNouva - iOS Remote Tweaks
+MD5Sum:
+ 6b3f9bc9455676ea36a04ea49d56101b 1640 Packages
+ 5c1345ee33ac40b57845fa8234c2a4f3 939 Packages.bz2

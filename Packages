@@ -1,3 +1,24 @@
+Package: com.fn.gravitation
+Version: 0.1.1
+Architecture: iphoneos-arm64e
+Maintainer: fn
+Installed-Size: 1264
+Pre-Depends: rootless-compat(>= 0.1)
+Depends: mobilesubstrate, preferenceloader
+Filename: ./debs/com.fn.gravitation_0.1.1_iphoneos-arm64e.deb
+Size: 100324
+MD5sum: 06f57c0e3a8181738308e85eb384c15c
+SHA1: 5c49310097df4ec87c6415182996be902f035f1f
+SHA256: d37225db8d9375b97039045af112448d1d8c19ff5e5b9a771cc38644b8601977
+Section: Tweaks
+Homepage: https://tqm-mos.com/info/gravitation/?p=info
+Description: Lắc điện thoại của bạn để icon rơi lả tả rất hay.
+Author: Kritanta
+Depiction: https://kiiimrepo.com
+Name: Gravitation (Roothide)
+Sileodepiction: https://tqm-mos.com/info/gravitation.json
+Website: https://kiiimrepo.com
+
 Package: it.ned.carrot5
 Version: 0.0.1
 Architecture: iphoneos-arm

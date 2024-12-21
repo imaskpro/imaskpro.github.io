@@ -20,6 +20,11 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n" } {
     else if ($i ~ /^Depends: /) depends = substr($i, 10);
     else if ($i ~ /^Maintainer: /) maintainer = "Maintainer: fn";
     else if ($i ~ /^Section: /) section = "Section: Tweaks";
+    
+    else if ($i ~ /^MD5sum: /) MD5sum_ = substr($i, 9);
+    else if ($i ~ /^SHA1: /) SHA1_ = substr($i, 7);
+    else if ($i ~ /^SHA256: /) SHA256_ = substr($i, 9);
+    
     else if ($i ~ /^Icon: /) icon = "";  # Skip the Icon line
   }
 
@@ -32,6 +37,11 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n" } {
     print "Architecture: " arch;
     print "Description: " desc;
     print "Depends: " depends;
+    
+    print "MD5sum: " MD5sum_;
+    print "SHA1: " SHA1_;
+    print "SHA256: " SHA256_;
+
 
     # Replace spaces with underscores in Name, Version, and Architecture for Depiction and SileoDepiction
     dep_name = gensub(/ /, "_", "g", name);

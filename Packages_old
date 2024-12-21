@@ -126,6 +126,24 @@ Icon: https://mainrepo.org/CydiaIcon.png
 Name: LocalIAPStore
 Sileodepiction: http://kiiimrepo.com
 
+Package: com.fn.networklist
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: daniel
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.fn.networklist_0.0.1_iphoneos-arm.deb
+Size: 5652
+MD5sum: 953bd13c608af4b8ef89311fe04fb39d
+SHA1: 5dd6df2cb39239aa5d1a069b3f41d2d2446993c1
+SHA256: 4f8110008cdfb4f428653eb63620bbba3951019f8592cfcd2a9b21bd116bf77f
+Section: Tweaks
+Description: Enables a hidden feature in the Settings app to view the passwords of any previously joined WiFi networks.
+Author: daniel
+Depiction: http://kiiimrepo.com/SileoDepic.php
+Name: NetworkList
+Sileodepiction: http://kiiimrepo.com/SileoDepic.php
+
 Package: com.fn.networkspeedrl
 Version: 1.0
 Architecture: iphoneos-arm64

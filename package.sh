@@ -15,7 +15,7 @@ dpkg-scanpackages -m ./debs > ORG_Packages
 
 
 # Backup Packages file
-cp -f Packages Packages_old
+#cp -f Packages Packages_old
 
 
 # Compress the Packages file

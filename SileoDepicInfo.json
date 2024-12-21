@@ -1,12 +1,12 @@
 {
-  "AppData_1.4.0_iphoneos-arm": "AppData|1.4.0|Fouad Raheb|iphoneos-arm|  View & Access Applications Data from Home Screen|firmware (>= 11.0), mobilesubstrate, preferenceloader",
-  "AppData_1.4.4_iphoneos-arm64": "AppData|1.4.4|Fouad Raheb|iphoneos-arm64|  View & Manage Applications Data from your Home Screen|firmware (>= 15.0), mobilesubstrate, preferenceloader",
-  "AVPhotos_1.0.1_iphoneos-arm64": "AVPhotos|1.0.1|MiRO|iphoneos-arm64|  PiP for videos in photos.app|firmware (>=14.0), mobilesubstrate",
-  "Choicy(Rootless)_1.4.10-3_iphoneos-arm64": "Choicy (Rootless)|1.4.10-3|opa334|iphoneos-arm64|  Advanced Tweak Configuration!|mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader",
-  "Choicy_1.5_iphoneos-arm": "Choicy|1.5|opa334|iphoneos-arm|  Advanced Tweak Configuration!|firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)",
-  "iCleanerPro_7.10.0_iphoneos-arm64": "iCleaner Pro|7.10.0|Ivano Bilenchi|iphoneos-arm64|  iCleaner Pro|mobilesubstrate, com.fn.icleanerpro",
-  "LocalIAPStore_1.4-4_iphoneos-arm": "LocalIAPStore|1.4-4|anondev|iphoneos-arm|  Hacking in-game purchases|firmware (>= 7.0), mobilesubstrate, preferenceloader",
-  "NetworkList_0.0.1_iphoneos-arm": "NetworkList|0.0.1|daniel|iphoneos-arm|  Enables a hidden feature in the Settings app to view the passwords of any previously joined WiFi networks.|mobilesubstrate",
-  "NetworkSpeedrootless_1.0_iphoneos-arm64": "NetworkSpeed rootless|1.0|34306|iphoneos-arm64|  A simple tweak that show network speed. Support notched iPhone and also rootless jailbreak.|mobilesubstrate",
-  "Velvet2_2.1.2-3_iphoneos-arm64": "Velvet 2|2.1.2-3|NoisyFlake|iphoneos-arm64|  A fully customizable notification experience|mobilesubstrate (>= 0.9.5000), preferenceloader"
+  "AppData_1.4.0_iphoneos-arm": "AppData|1.4.0|Fouad Raheb|iphoneos-arm| View & Access Applications Data from Home Screen|firmware (>= 11.0), mobilesubstrate, preferenceloader",
+  "AppData_1.4.4_iphoneos-arm64": "AppData|1.4.4|Fouad Raheb|iphoneos-arm64| View & Manage Applications Data from your Home Screen|firmware (>= 15.0), mobilesubstrate, preferenceloader",
+  "AVPhotos_1.0.1_iphoneos-arm64": "AVPhotos|1.0.1|MiRO|iphoneos-arm64| PiP for videos in photos.app|firmware (>=14.0), mobilesubstrate",
+  "Choicy(Rootless)_1.4.10-3_iphoneos-arm64": "Choicy (Rootless)|1.4.10-3|opa334|iphoneos-arm64| Advanced Tweak Configuration!|mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader",
+  "Choicy_1.5_iphoneos-arm": "Choicy|1.5|opa334|iphoneos-arm| Advanced Tweak Configuration!|firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)",
+  "iCleanerPro_7.10.0_iphoneos-arm64": "iCleaner Pro|7.10.0|Ivano Bilenchi|iphoneos-arm64| iCleaner Pro|mobilesubstrate, com.fn.icleanerpro",
+  "LocalIAPStore_1.4-4_iphoneos-arm": "LocalIAPStore|1.4-4|anondev|iphoneos-arm| Hacking in-game purchases|firmware (>= 7.0), mobilesubstrate, preferenceloader",
+  "NetworkList_0.0.1_iphoneos-arm": "NetworkList|0.0.1|daniel|iphoneos-arm| Enables a hidden feature in the Settings app to view the passwords of any previously joined WiFi networks.|mobilesubstrate",
+  "NetworkSpeedrootless_1.0_iphoneos-arm64": "NetworkSpeed rootless|1.0|34306|iphoneos-arm64| A simple tweak that show network speed. Support notched iPhone and also rootless jailbreak.|mobilesubstrate",
+  "Velvet2_2.1.2-3_iphoneos-arm64": "Velvet 2|2.1.2-3|NoisyFlake|iphoneos-arm64| A fully customizable notification experience|mobilesubstrate (>= 0.9.5000), preferenceloader"
 }

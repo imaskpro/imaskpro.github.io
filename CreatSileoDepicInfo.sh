@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Input file containing the packages information
-PACKAGES_FILE="Packages"
+PACKAGES_FILE="ORG_Packages"
 # Output JSON file
 OUTPUT_FILE="SileoDepicInfo.json"
 

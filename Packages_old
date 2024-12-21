@@ -113,18 +113,17 @@ Version: 1.4-4
 Architecture: iphoneos-arm
 Maintainer: MainRepo
 Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
-Filename: ./debs/org.mr.localiapstore_1.4-4_iphoneos-arm.deb
-Size: 42256
-MD5sum: f5ca21628a72e457ed4a48afaf696373
-SHA1: af2abbbaac868579c3ad2ad84b6270c873bcd605
-SHA256: 7e0ce0fbec6224f8861e2f2d76210211bf8e448ce119379cca2204e75b2b5e8b
+Filename: ./debs/com.fn.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 42268
+MD5sum: 2d8b561d888773f3da168b1fcdf76fa1
+SHA1: 8df9c06cc350dcbfde4a895f5448d765c3afb0a2
+SHA256: 3b59d8f55dc1fc37aca77d22595f79851bc2455a89cf2eb34afe21d6761fa1dd
 Section: Tweaks
 Description: Hacking in-game purchases
 Author: anondev
-Depiction: http://kiiimrepo.com
-Icon: https://mainrepo.org/CydiaIcon.png
+Depiction: https://kiiimrepo.com
 Name: LocalIAPStore
-Sileodepiction: http://kiiimrepo.com
+Sileodepiction: https://kiiimrepo.com
 
 Package: com.fn.networklist
 Version: 0.0.1

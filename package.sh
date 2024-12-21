@@ -11,7 +11,7 @@ rm Packages Packages.bz2
 dpkg-scanpackages -m ./debs > ORG_Packages
 ./CreatPackagesShort.sh
 ./CreatSileoDepicInfo.sh
-#bzip2 -fks Packages
+bzip2 -fks Packages
 
 
 # Backup Packages file
@@ -19,7 +19,7 @@ dpkg-scanpackages -m ./debs > ORG_Packages
 
 
 # Compress the Packages file
-bzip2 -k Packages  # Use -k to keep the original Packages file intact
+#bzip2 -k Packages  # Use -k to keep the original Packages file intact
 
 # Calculate MD5 checksums and file sizes dynamically
 PACKAGES_MD5=$(md5sum Packages | awk '{print $1}')

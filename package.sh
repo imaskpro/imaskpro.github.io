@@ -1,10 +1,18 @@
 #!/bin/bash
 
 # Remove existing compressed Packages file
-rm -f ./Packages.bz2
+#rm -f ./Packages.bz2
 
 # Scan deb files and generate Packages file
-dpkg-scanpackages -m ./debs > Packages
+#dpkg-scanpackages -m ./debs > Packages
+
+
+rm Packages Packages.bz2
+dpkg-scanpackages -m ./debs > ORG_Packages
+./CreatPackagesShort.sh
+./CreatSileoDepicInfo.sh
+#bzip2 -fks Packages
+
 
 # Backup Packages file
 cp -f Packages Packages_old

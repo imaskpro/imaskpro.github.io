@@ -1,0 +1,183 @@
+Package: com.fn.appdata
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: fn
+Installed-Size: 776
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.fn.appdata_1.4.0_iphoneos-arm.deb
+Size: 126584
+MD5sum: cfaa3146855700e0113eaf0a46318e9a
+SHA1: 803d5a3e243ad35391faf9b765de85cfe223b8ac
+SHA256: 67c94ca90bf92b34f3fd8f10be75dab359668ce51b242ca227051d1abeab6ae3
+Section: Tweaks
+Description: View & Access Applications Data from Home Screen
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: http://kiiimrepo.com/SileoDepic.php
+Name: AppData
+Sileodepiction: http://kiiimrepo.com/SileoDepic.php
+
+Package: com.fn.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.fn.appdata_1.4.4_iphoneos-arm64.deb
+Size: 5049660
+MD5sum: 404476ce49646572e9fac800d323a03d
+SHA1: b7c11e6b406317d9e584f27ac664510807bda8b5
+SHA256: f1e11d1c36ebe577694010b937712f97781ab052ae4fa685f446f024d3809b94
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Depiction: http://kiiimrepo.com/testDepic.php
+Name: AppData
+Sileodepiction: http://kiiimrepo.com/testDepic.php
+
+Package: com.fn.avphotos
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: fn
+Depends: firmware (>=14.0), mobilesubstrate
+Filename: ./debs/com.fn.avphotos_1.0.1_iphoneos-arm64.deb
+Size: 7128
+MD5sum: 4d021043aab5bb156242102d90a7ddc3
+SHA1: 5796c33263b44310c5a52b7599a469e4622577a6
+SHA256: 76cfe2662b3ef8fac1b08fbc7aea2c43ec2d1805af48dd89bc626b67219f1f4d
+Section: Tweaks
+Description: PiP for videos in photos.app
+Author: MiRO
+Depiction: http://kiiimrepo.com/testDepic_.php
+Name: AVPhotos
+Sileodepiction: http://kiiimrepo.com/testDepic_.php
+
+Package: com.fn.choicy
+Version: 1.4.10-3
+Architecture: iphoneos-arm64
+Maintainer: fn
+Installed-Size: 884
+Depends: mobilesubstrate, com.opa334.altlist (>=1.0.4), preferenceloader
+Filename: ./debs/com.fn.choicy_1.4.10-3_iphoneos-arm64.deb
+Size: 104768
+MD5sum: c69522450caae372f3c64740f2c11f6d
+SHA1: 45a617883687d60f3ff8343495b1dccdeac3f4d1
+SHA256: 0e111a05d147f6d4ecd5fea8904d0155fb28d5bbe7a81a3ccaf7c5b4a367fc81
+Section: Tweaks
+Description: Advanced Tweak Configuration!
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://kiiimrepo.com
+Name: Choicy (Rootless)
+Sileodepiction: http://kiiimrepo.com/depictions/depic.json
+
+Package: com.fn.choicy
+Version: 1.5
+Architecture: iphoneos-arm
+Maintainer: BigBoss <bigboss@thebigboss.org>
+Installed-Size: 1322
+Depends: firmware (>= 10.0), mobilesubstrate (>= 0.9.5000), preferenceloader, com.opa334.altlist (>= 1.0.4)
+Filename: ./debs/com.fn.choicy_1.5_iphoneos-arm.deb
+Size: 255912
+MD5sum: 50667ca2888341f7ff9108eb54052748
+SHA1: 168fe9a1771a425c461f20b3364041eb16ec1349
+SHA256: 1b9db83642af42f7f81d816b622517e1ef376ce11c85d046e3d47db24eab4fef
+Section: Tweaks
+Homepage: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Description: Advanced Tweak Configuration!
+Tag: purpose::extension
+Author: opa334 <opa334@protonmail.com>
+Depiction: http://moreinfo.thebigboss.org/moreinfo/depiction.php?file=choicyDp
+Dev: opa334
+Icon: file:///Library/PreferenceBundles/ChoicyPrefs.bundle/ChoicyIcon@2x.png
+Name: Choicy
+Sponsor: thebigboss.org <http://thebigboss.org>
+
+Package: com.fn.icleanerpro
+Version: 7.10.0
+Architecture: iphoneos-arm64
+Maintainer: fn
+Installed-Size: 136
+Depends: mobilesubstrate, com.fn.icleanerpro
+Filename: ./debs/com.fn.icleanerpro_7.10.0_iphoneos-arm64.deb
+Size: 1094388
+MD5sum: c0046d01c0138e6fd18d536c4ade45d2
+SHA1: 60a39170b36c52396c8c104b7f9a1366489d6ace
+SHA256: 758a4d2f84b4789b7c92413acab7fcf54181c51076534f7c35c375161dd182dd
+Section: Tweaks
+Description: iCleaner Pro
+Author: Ivano Bilenchi
+Depiction: http://kiiimrepo.com
+Name: iCleaner Pro
+Sileodepiction: http://kiiimrepo.com/depictions/depic.json
+
+Package: com.fn.localiapstore
+Version: 1.4-4
+Architecture: iphoneos-arm
+Maintainer: MainRepo
+Depends: firmware (>= 7.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.fn.localiapstore_1.4-4_iphoneos-arm.deb
+Size: 42268
+MD5sum: 2d8b561d888773f3da168b1fcdf76fa1
+SHA1: 8df9c06cc350dcbfde4a895f5448d765c3afb0a2
+SHA256: 3b59d8f55dc1fc37aca77d22595f79851bc2455a89cf2eb34afe21d6761fa1dd
+Section: Tweaks
+Description: Hacking in-game purchases
+Author: anondev
+Depiction: https://kiiimrepo.com
+Name: LocalIAPStore
+Sileodepiction: https://kiiimrepo.com
+
+Package: com.fn.networklist
+Version: 0.0.1
+Architecture: iphoneos-arm
+Maintainer: daniel
+Installed-Size: 136
+Depends: mobilesubstrate
+Filename: ./debs/com.fn.networklist_0.0.1_iphoneos-arm.deb
+Size: 5644
+MD5sum: c224f6d0a3d4f69d050e07ddf766c246
+SHA1: 76b9d22940dd397695fa3027b5524ed782c5ea24
+SHA256: c951de16b27d879a527cf8a320f9961870d8b972da120fe4245f4b13b5baffed
+Section: Tweaks
+Description: Enables a hidden feature in the Settings app to view the passwords of any previously joined WiFi networks.
+Author: daniel
+Depiction: https://kiiimrepo.com/SileoDepic.php
+Name: NetworkList
+Sileodepiction: https://kiiimrepo.com/SileoDepic.php
+
+Package: com.fn.networkspeedrl
+Version: 1.0
+Architecture: iphoneos-arm64
+Maintainer: Little 34306
+Installed-Size: 144
+Depends: mobilesubstrate
+Filename: ./debs/com.fn.networkspeedrl_1.0_iphoneos-arm64.deb
+Size: 13836
+MD5sum: d16c6066b30c937f2d6bdd91149d47f4
+SHA1: dbd4f3c5e9aea4a5f0cb35431346ad988095b3ab
+SHA256: 12cd3248b5d7b78507ac774527929cf26536f7ba5e194ddabc7f7e1c7c0b19fe
+Section: Tweaks
+Description: A simple tweak that show network speed. Support notched iPhone and also rootless jailbreak.
+Author: 34306
+Depiction: http://kiiimrepo.com
+Name: NetworkSpeed rootless
+Sileodepiction: http://kiiimrepo.com/depictions/depic.json
+
+Package: com.fn.velvet2
+Version: 2.1.2-3
+Architecture: iphoneos-arm64
+Maintainer: fn <support@noisyflake.com>
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/com.fn.velvet2_2.1.2-3_iphoneos-arm64.deb
+Size: 95716
+MD5sum: 06857458e950c41dd2fd0b8fbc653a6a
+SHA1: 859a788176516dc1291eecedaeefebf1ec263b45
+SHA256: 42c20849f70be13d87936077e4a9d6a2176eed76e05997e2be9cedd04c4689f7
+Section: Tweaks
+Description: A fully customizable notification experience
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/get/velvet-2
+Name: Velvet 2
+Sileodepiction: http://kiiimrepo.com/testDepic.php
+

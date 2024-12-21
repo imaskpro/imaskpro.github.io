@@ -6,7 +6,7 @@ PACKAGES_FILE="ORG_Packages"
 OUTPUT_FILE="Packages"
 
 # Process each package block
-gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n\n" } {
+gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n" } {
   # Initialize variables
   name=""; version=""; author=""; arch=""; desc=""; depends=""; maintainer=""; section=""; icon="";
 
@@ -25,8 +25,8 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n\n" } {
 
   # Output the modified package block
   if (name && version) {
-    # Print the Name line as is
-    print "Name: " name;
+    # Add a newline before the Name line and print it
+    print "\nName: " name;
     print "Version: " version;
     print "Author: " author;
     print "Architecture: " arch;
@@ -46,7 +46,6 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n\n" } {
     
     print maintainer;
     print section;
-    print "";
   }
 }' "$PACKAGES_FILE" > "$OUTPUT_FILE"
 

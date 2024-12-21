@@ -15,6 +15,23 @@ Depiction: http://kiiimrepo.com/testDepic.php
 Name: AppData
 Sileodepiction: http://kiiimrepo.com/testDepic.php
 
+Package: com.fn.avphotos
+Version: 1.0.1
+Architecture: iphoneos-arm64
+Maintainer: fn
+Depends: firmware (>=14.0), mobilesubstrate
+Filename: ./debs/com.fn.avphotos_1.0.1_iphoneos-arm64.deb
+Size: 7128
+MD5sum: 4d021043aab5bb156242102d90a7ddc3
+SHA1: 5796c33263b44310c5a52b7599a469e4622577a6
+SHA256: 76cfe2662b3ef8fac1b08fbc7aea2c43ec2d1805af48dd89bc626b67219f1f4d
+Section: Tweaks
+Description: PiP for videos in photos.app
+Author: MiRO
+Depiction: http://kiiimrepo.com/testDepic_.php
+Name: AVPhotos
+Sileodepiction: http://kiiimrepo.com/testDepic_.php
+
 Package: com.fn.choicy
 Version: 1.4.10-3
 Architecture: iphoneos-arm64

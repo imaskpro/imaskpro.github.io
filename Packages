@@ -1,4 +1,22 @@
 Package: com.fn.appdata
+Version: 1.4.0
+Architecture: iphoneos-arm
+Maintainer: fn
+Installed-Size: 776
+Depends: firmware (>= 11.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.fn.appdata_1.4.0_iphoneos-arm.deb
+Size: 126584
+MD5sum: cfaa3146855700e0113eaf0a46318e9a
+SHA1: 803d5a3e243ad35391faf9b765de85cfe223b8ac
+SHA256: 67c94ca90bf92b34f3fd8f10be75dab359668ce51b242ca227051d1abeab6ae3
+Section: Tweaks
+Description: View & Access Applications Data from Home Screen
+Author: Fouad Raheb <support@fouadraheb.com>
+Depiction: http://kiiimrepo.com/SileoDepic.php
+Name: AppData
+Sileodepiction: http://kiiimrepo.com/SileoDepic.php
+
+Package: com.fn.appdata
 Version: 1.4.4
 Architecture: iphoneos-arm64
 Maintainer: CyPwn

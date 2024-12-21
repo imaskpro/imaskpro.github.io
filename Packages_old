@@ -1,3 +1,20 @@
+Package: com.fn.appdata
+Version: 1.4.4
+Architecture: iphoneos-arm64
+Maintainer: CyPwn
+Depends: firmware (>= 15.0), mobilesubstrate, preferenceloader
+Filename: ./debs/com.fn.appdata_1.4.4_iphoneos-arm64.deb
+Size: 5049660
+MD5sum: 404476ce49646572e9fac800d323a03d
+SHA1: b7c11e6b406317d9e584f27ac664510807bda8b5
+SHA256: f1e11d1c36ebe577694010b937712f97781ab052ae4fa685f446f024d3809b94
+Section: Tweaks
+Description: View & Manage Applications Data from your Home Screen
+Author: Fouad Raheb
+Depiction: http://kiiimrepo.com/testDepic.php
+Name: AppData
+Sileodepiction: http://kiiimrepo.com/testDepic.php
+
 Package: com.fn.choicy
 Version: 1.4.10-3
 Architecture: iphoneos-arm64

@@ -52,7 +52,7 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n" } {
     print "Depiction: https://kiiimrepo.com/SileoDepic.php?info=" dep_name "_" dep_version "_" dep_arch;
     
     # Print the second SileoDepiction as SileoDepiction
-    print "SileoDepiction: https://kiiimrepo.com/SileoDepic.php?info=" dep_name "_" dep_version "_" dep_arch;
+    print "Sileodepiction: https://kiiimrepo.com/SileoDepic.php?info=" dep_name "_" dep_version "_" dep_arch;
     
     print maintainer;
     print section;

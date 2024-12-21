@@ -92,3 +92,22 @@ Depiction: http://kiiimrepo.com
 Name: NetworkSpeed rootless
 Sileodepiction: http://kiiimrepo.com/depictions/depic.json
 
+Package: com.fn.velvet2
+Version: 2.1.2-3
+Architecture: iphoneos-arm64
+Maintainer: fn <support@noisyflake.com>
+Installed-Size: 629
+Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
+Conflicts: com.initwithframe.velvet
+Filename: ./debs/com.fn.velvet2_2.1.2-3_iphoneos-arm64.deb
+Size: 95592
+MD5sum: 30a71f0ac49da8df83c7ebe08d90ab4c
+SHA1: 911c316dbff8e60b5ab29fd59df6862e42b4ee0a
+SHA256: 7f6096dfca018384126c6ade70f98e7ecf39ce052e80494cb1a84577a5c17658
+Section: Tweaks
+Description: A fully customizable notification experience
+Tag: compatible_min::ios15.0
+Author: NoisyFlake <support@noisyflake.com>
+Depiction: https://chariz.com/get/velvet-2
+Name: Velvet 2
+

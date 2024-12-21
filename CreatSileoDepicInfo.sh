@@ -23,10 +23,11 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="" } {
     else if ($i ~ /^Depends: /) depends = substr($i, 10);
   }
   if (name && version && arch) {
+    name_with_space = name;
     gsub(/ /, "_", name); # change space in name to _
     key = name "_" version "_" arch;  # New key format: Name_Version_Architecture
     gsub(/ /, "", key); # Remove spaces from key
-    printf "  \"%s\": \"%s|%s|%s|%s|%s|%s\",\n", key, name, version, author, arch, desc, depends;
+    printf "  \"%s\": \"%s|%s|%s|%s|%s|%s|%s\",\n", key, name_with_space, name, version, author, arch, desc, depends;
   }
 }' "$PACKAGES_FILE" >> "$OUTPUT_FILE"
 

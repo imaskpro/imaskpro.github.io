@@ -23,6 +23,7 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="" } {
     else if ($i ~ /^Depends: /) depends = substr($i, 10);
   }
   if (name && version && arch) {
+    gsub(/ /, "_", name); # change space in name to _
     key = name "_" version "_" arch;  # New key format: Name_Version_Architecture
     gsub(/ /, "", key); # Remove spaces from key
     printf "  \"%s\": \"%s|%s|%s|%s|%s|%s\",\n", key, name, version, author, arch, desc, depends;

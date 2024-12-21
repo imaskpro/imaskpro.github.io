@@ -100,15 +100,15 @@ Installed-Size: 629
 Depends: mobilesubstrate (>= 0.9.5000), preferenceloader
 Conflicts: com.initwithframe.velvet
 Filename: ./debs/com.fn.velvet2_2.1.2-3_iphoneos-arm64.deb
-Size: 95480
-MD5sum: b72f8d45f9301c5c03338e1e0f5f852f
-SHA1: aee3ad3d129909ce279632ef1d5e6de01f0bba5e
-SHA256: d8448e777cfc3dab55bda7ccd0d1b16b30c291974ac5d9778e2bce4743296a4d
+Size: 95716
+MD5sum: 06857458e950c41dd2fd0b8fbc653a6a
+SHA1: 859a788176516dc1291eecedaeefebf1ec263b45
+SHA256: 42c20849f70be13d87936077e4a9d6a2176eed76e05997e2be9cedd04c4689f7
 Section: Tweaks
 Description: A fully customizable notification experience
 Tag: compatible_min::ios15.0
 Author: NoisyFlake <support@noisyflake.com>
 Depiction: https://chariz.com/get/velvet-2
 Name: Velvet 2
-Sileodepiction: https://chariz.com/get/velvet-2
+Sileodepiction: http://kiiimrepo.com/testDepic.php
 

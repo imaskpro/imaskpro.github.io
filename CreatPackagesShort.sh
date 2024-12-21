@@ -21,6 +21,9 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n" } {
     else if ($i ~ /^Maintainer: /) maintainer = "Maintainer: fn";
     else if ($i ~ /^Section: /) section = "Section: Tweaks";
     
+    else if ($i ~ /^Installed-Size: /) InstalledSize_ = substr($i, 17);
+    else if ($i ~ /^Size: /) Size_ = substr($i, 7);
+    else if ($i ~ /^Filename: /) Filename_ = substr($i, 11);
     else if ($i ~ /^MD5sum: /) MD5sum_ = substr($i, 9);
     else if ($i ~ /^SHA1: /) SHA1_ = substr($i, 7);
     else if ($i ~ /^SHA256: /) SHA256_ = substr($i, 9);
@@ -37,7 +40,11 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n" } {
     print "Architecture: " arch;
     print "Description: " desc;
     print "Depends: " depends;
-    
+
+
+    print "Installed-Size: " InstalledSize_;
+    print "Size: " Size_;
+    print "Filename: " Filename_;
     print "MD5sum: " MD5sum_;
     print "SHA1: " SHA1_;
     print "SHA256: " SHA256_;

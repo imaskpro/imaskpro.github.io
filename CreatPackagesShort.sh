@@ -12,7 +12,9 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n" } {
 
   # Process each line of the package block
   for (i = 1; i <= NF; i++) {
-    if ($i ~ /^Name: /) name = substr($i, 7);
+  
+    if ($i ~ /^Package: /) Package_ = substr($i, 10);
+    else if ($i ~ /^Name: /) name = substr($i, 7);
     else if ($i ~ /^Version: /) version = substr($i, 10);
     else if ($i ~ /^Author: /) author = substr($i, 9);
     else if ($i ~ /^Architecture: /) arch = substr($i, 15);
@@ -34,7 +36,8 @@ gawk 'BEGIN { RS="\n\n"; FS="\n"; ORS="\n" } {
   # Output the modified package block
   if (name && version) {
     # Add a newline before the Name line and print it
-    print "\nName: " name;
+    print "\nPackage: " Package_;
+    print "Name: " name;
     print "Version: " version;
     print "Author: " author;
     print "Architecture: " arch;

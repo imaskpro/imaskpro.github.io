@@ -132,16 +132,16 @@ Maintainer: daniel
 Installed-Size: 136
 Depends: mobilesubstrate
 Filename: ./debs/com.fn.networklist_0.0.1_iphoneos-arm.deb
-Size: 5652
-MD5sum: 953bd13c608af4b8ef89311fe04fb39d
-SHA1: 5dd6df2cb39239aa5d1a069b3f41d2d2446993c1
-SHA256: 4f8110008cdfb4f428653eb63620bbba3951019f8592cfcd2a9b21bd116bf77f
+Size: 5644
+MD5sum: c224f6d0a3d4f69d050e07ddf766c246
+SHA1: 76b9d22940dd397695fa3027b5524ed782c5ea24
+SHA256: c951de16b27d879a527cf8a320f9961870d8b972da120fe4245f4b13b5baffed
 Section: Tweaks
 Description: Enables a hidden feature in the Settings app to view the passwords of any previously joined WiFi networks.
 Author: daniel
-Depiction: http://kiiimrepo.com/SileoDepic.php
+Depiction: https://kiiimrepo.com/SileoDepic.php
 Name: NetworkList
-Sileodepiction: http://kiiimrepo.com/SileoDepic.php
+Sileodepiction: https://kiiimrepo.com/SileoDepic.php
 
 Package: com.fn.networkspeedrl
 Version: 1.0
